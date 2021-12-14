@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="7.0.0" />
+    <PackageReference Include="AngleSharp" Version="0.16.1" />
+    <PackageReference Include="Arch.EntityFrameworkCore.Proxies" Version="2.1.15" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="EcoCore" Version="7.0.0.13721" />
+    <PackageReference Include="FluentResults" Version="3.1.0" />  
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Graph" Version="4.11.0" />
+    <PackageReference Include="MySql.Data" Version="6.7.9" />
+    <PackageReference Include="MySqlConnector" Version="2.1.0" />
+    <PackageReference Include="NuGet.Packaging" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Linq.Async" Version="5.1.0" />
+    <PackageReference Include="UmbracoCms.Core" Version="8.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Validations\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+</Project>
